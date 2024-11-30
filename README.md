@@ -45,6 +45,7 @@ El algoritmo debe gestionar de forma eficiente las dependencias entre las tareas
 
 Código fuente en C++ que implemente la solución al problema.
 Diagrama de flujo que represente el cronograma de ejecución de las tareas.
+![Captura de pantalla 2024-11-30 201012](https://github.com/user-attachments/assets/a23b0939-b63d-473a-b290-486e1f656a5d)
 
 
 
