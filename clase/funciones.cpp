@@ -91,17 +91,19 @@ void imprimirResultados(const vector<tarea>& tareas, int numPersonas, const unor
         cout << "Persona " << i + 1 << ":" << endl;
         cout << left << setw(10) << "Hora" << setw(10) << "Tarea" << setw(10) << "Duracion" << endl;
         cout << "----------------------------------------" << endl;
+int tiempototal =0;
         for (const auto& tarea : tareas) {
             if (asignacionTarea.at(tarea.id) == i) {
                 int horaTarea = horaInicio + (inicioTarea.at(tarea.id) + minutoInicio) / 60;
                 int minutoTarea = (inicioTarea.at(tarea.id) + minutoInicio) % 60;
+                tiempototal += tarea.duracion;
                 cout << setw(2) << setfill('0') << horaTarea << ":"
                      << setw(2) << setfill('0') << minutoTarea << setfill(' ') << "    "
                      << tarea.id << "    "
                      << tarea.duracion << " min" << endl;
             }
         }
-        cout << endl;
+        cout <<"Total tiempo:" << tiempototal << endl;
     }
 
     cout << "Tabla de tareas por hora:" << endl;

@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Examen_Parcial3_Vinculante_",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Examen_Parcial3_Vinculante_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Examen_Parcial3_Vinculante_-Debug-8d15ec05459da5e80412.json",
+					"name" : "Examen_Parcial3_Vinculante_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Examen_Parcial3-Vinculante-/cmake-build-debug",
+		"source" : "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Examen_Parcial3-Vinculante-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
